@@ -1,0 +1,54 @@
+LISTAS
+- Em uma lista os dados são armazenados de forma sequencial, em estruturas chamadas de nós.
+- O principal tipo de lista é chamado de lista encadeada (linked list).
+- Os dados são armazenados em nós, estruturas individuais compostas por um campo de informação e um campo de endereço (ponteiro de ligação - link), que conecta ao próximo nó da lista
+- A lista pode ser simples ou dupla. Uma lista duplamente encadeada contém também ponteiros para elementos anteriores.
+- Uma lista encadeada também pode ser do tipo Circular.
+- Amplamente empregadas na implementação de pilhas e filas. 
+
+Operações em Listas
+
+- get(): Retornar um elemento da lista, em uma posição específica.
+- insert(): Inserir um elemento em uma posição qualquer na lista.
+- remove(): Remover a primeira ocorrência de um elemento qualquer em uma lista (não-vazia).
+- removerAT(): Remover o elemento qualquer em uma posição especificada na lista (não-vazia).
+- replace(): Substituir um elemento em qualquer posição por outro elemento.
+- size(): Retornar o tamanho da lista (número de elementos).
+- isEmpty(): retorna um booleano informando se a estruura está vazia.
+- isFull(): retorna um booleano informando se a estrutura está cheia.
+
+PILHA
+- Estrutura linear para armazenamento de itens que são inseridos e removidos de acordo com o princípio LIFO (last-in-first-out).
+- Os objetos podem ser inseridos a qualquer momento, mas apenas o objeto que foi inserido por último pode ser removido.
+- Os elementos podem ser inseridos e excluídos apenas em um lado da lista, chamado de topo.
+
+Operações em pilhas
+
+- push(): Inserir um item o topo da pilha.
+- pop(): Remover e retornar o elemento do topo da pilha, se não estiver vazia.
+- peek(): Retorna o elemento no topo da pilha, sem removê-lo.
+- size(): Retorna o tamanho da pilha (n de itens).
+- isEmpty(): retorna um booleano informando se a pilha está vazia.
+- isFull(): retorna um booleano informando se a pilha está cheia.
+
+Fila
+
+- Estrutura linear na qual a inserção e remoção de itens segue o princípio FIFO (first-in-first-out).
+- Os objetos podem ser inseridos a qualquer momento, mas apenas o objeto que está há mais tempo na fila pode ser removido.
+- Elementos somente são inseridos em um lado da lista, o final, e somente podem ser excluídos do outro lado, o início da lista.
+- Cada nó contém um ponteiro para os dados e um ponteiro de ligação (link) para o próximo elemento na fila.
+
+Operações em filas
+
+- enqueue(): insere um item no final da fila.
+- dequeue(): retira e retorna o elemento que está no início da fila, se ela não estiver vazia.
+- peek(): retorna um elemento da fila, sem remove-lo, se ela não estiver vazia.
+- size(): retorna o tamenho da fila (n de itens).
+- isEmpty(): retorna um booleano informando se a fila está vazia.
+- isFull(): retorna um booleano informando se a pilha está cheia.
+
+
+
+
+
+
