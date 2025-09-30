@@ -39,7 +39,7 @@ Fila
 - Cada nó contém um ponteiro para os dados e um ponteiro de ligação (link) para o próximo elemento na fila.
 
 Operações em filas
-
+- init(): inicia a fila deixando-a vazia; 
 - enqueue(): insere um item no final da fila.
 - dequeue(): retira e retorna o elemento que está no início da fila, se ela não estiver vazia.
 - peek(): retorna um elemento da fila, sem remove-lo, se ela não estiver vazia.
